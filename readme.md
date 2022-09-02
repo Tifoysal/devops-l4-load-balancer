@@ -3,7 +3,7 @@
 In this tutorial, I am going to demonstrate Layer 4 load balancing using Nginx.
 > What we will learn from here?
 
-* Creating VPC
+* VPC Creating
 
 ![vpc create](screenshots/vpc-create.png)
 
