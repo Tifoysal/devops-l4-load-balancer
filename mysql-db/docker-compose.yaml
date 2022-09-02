@@ -1,0 +1,7 @@
+version: '3'
+services:
+  database:
+    image: 'mysql:latest'
+    container_name: mysql_database
+    ports:
+      - "3306:3306"

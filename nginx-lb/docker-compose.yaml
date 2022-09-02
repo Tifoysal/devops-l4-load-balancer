@@ -1,0 +1,9 @@
+version: "3"
+services:
+  load-balance:
+    image: nginx:stable-alpine
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/ngix.conf
